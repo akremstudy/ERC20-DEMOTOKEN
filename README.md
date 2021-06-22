@@ -8,9 +8,9 @@ Node >=6.11.5
 Python >=3.6
 
 Install Ganache(personal ehtereum blockchain)
-$npm install -g ganache-cli
+`npm install -g ganache-cli`
 
-$python -m pip install --user pipx
-$python -m pipx enusrepath
+`python -m pip install --user pipx`
+`python -m pipx enusrepath`
 
-$pipx install eth-brownie
+`pipx install eth-brownie`
