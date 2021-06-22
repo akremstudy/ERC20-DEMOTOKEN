@@ -1,0 +1,25 @@
+{
+  "contracts": {
+    "DemoToken": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "OpenZeppelin/openzeppelin-contracts@2.5.0/ERC20": "aa4d8ad11d52b004cd3301d52c04abc786758673",
+    "OpenZeppelin/openzeppelin-contracts@2.5.0/ERC20Mintable": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "OpenZeppelin/openzeppelin-contracts@2.5.0/Roles": "3232e80569be845f6931e64f6278c8c0c6be0329",
+    "OpenZeppelin/openzeppelin-contracts@2.5.0/SafeMath": "3232e80569be845f6931e64f6278c8c0c6be0329"
+  },
+  "tests": {
+    "tests/test_mint.py": {
+      "coverage": false,
+      "isolated": [
+        "DemoToken",
+        "OpenZeppelin/openzeppelin-contracts@2.5.0/ERC20",
+        "OpenZeppelin/openzeppelin-contracts@2.5.0/ERC20Mintable",
+        "OpenZeppelin/openzeppelin-contracts@2.5.0/Roles",
+        "OpenZeppelin/openzeppelin-contracts@2.5.0/SafeMath"
+      ],
+      "results": "...",
+      "sha1": "69d2d8b607ee9b0d6e2eb973fffbe841a8256db3",
+      "txhash": []
+    }
+  },
+  "tx": {}
+}
